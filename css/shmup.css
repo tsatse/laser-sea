@@ -34,14 +34,25 @@ canvas {
 }
 
 #top-offscreen {
+    opacity: 0.5;
     top: 450px;
     left: 200px;
 }
+
 #bottom-offscreen {
+    opacity: 0.5;
     top: 534px;
     left: 200px;
 }
+
 #destination {
+    opacity: 0.5;
     top: 450px;
     left: 500px;
+}
+
+#top-offscreen.disabled,
+#bottom-offscreen.disabled,
+#destination.disabled {
+    display: none;
 }
